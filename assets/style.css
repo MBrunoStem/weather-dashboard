@@ -1,0 +1,40 @@
+header {
+    /* font-size: xx-large; */
+    background-image: linear-gradient(to right, rgb(16, 158, 177), rgb(13, 63, 228));
+    height: 80px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    display: flex;
+}
+
+h1 {
+    padding-top: 20PX;
+    text-align: center;
+    color: white;
+}
+
+#city-input {
+    width: 225px;
+    height: 30px;
+}
+
+#search-button {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67, 143, 243);
+    color: white;
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 230px;
+    height: 30px;
+}
