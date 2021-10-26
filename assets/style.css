@@ -1,74 +1,14 @@
-/* header {
-    font-size: large;
-    background-image: linear-gradient(to right, rgb(16, 158, 177), rgb(13, 63, 228));
-    height: 80px;
-    border-radius: 5px;
-}
-
-main {
-    display: flex;
-}
-
-aside {
-    display: flex;
-}
-
-h1 {
-    padding-top: 20PX;
-    text-align: center;
-    color: white;
-}
-
-#city-input {
-    width: 225px;
-    height: 30px;
-}
-
-#search-button {
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(67, 143, 243);
-    color: white;
-    border-top-left-radius: 5px ;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    width: 230px;
-    height: 30px;
-}
-
-#search-history {
-    display: flex;
-    flex-direction: column
-}
-
-ul {
-    justify-content: flex-start;
-}
-
-li {
-    margin: 5px;
-    padding: 5px;
-    width: 200px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    border-style: groove;
-    border-radius: 5px;
-}
-
-#current-day {
-    width: 70%;
-    margin: 20px;
-} */
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    background-image: url("./peaceful-sky.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -77,6 +17,7 @@ header {
     height: 80px;
     border-radius: 5px;
     color: white;
+    margin: 10px;
 }
 
 h1 {
@@ -105,6 +46,7 @@ h3 {
 #city-input {
     width: 225px;
     height: 30px;
+    padding-left: 10px;
 }
 
 #search-button {
@@ -156,6 +98,7 @@ section {
 #current-day {
     border-radius: 5px;
     border-color: black;
+    height: fit-content;
 }
 
 #forecast {
@@ -163,7 +106,8 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 375px;
+    /* height: 375px; */
+    height: fit-content;
     border-radius: 5px;
 }
 
@@ -173,7 +117,7 @@ aside {
     padding: 20px;
     clear: both;
     float: left;
-    width: 20%;
+    width: fit-content;
     height: 100%;
     background-image: linear-gradient(to right, rgb(8, 142, 151) , rgb(5, 82, 170));
     border-radius: 5px;
@@ -184,10 +128,11 @@ aside h2 {
 }
 
 .forecast-card {
-    background-image: linear-gradient(to right, rgb(16, 158, 177), rgb(13, 63, 228));
+    background-image: linear-gradient(to right, rgba(16, 158, 177, 0.603), rgba(13, 63, 228, 0.575));
     height: 300px;
     width: 175px;
-    border-style: groove;
+    /* border-style: groove; */
+    border-radius: 5px;
     margin: 10px;
 }
 
@@ -201,13 +146,6 @@ h4 {
     margin-left: 5px;
     margin-bottom: 20px;
 }
-
-/* #forecast-1, #forecast-2, #forecast-3, #forecast-4, #forecast-5 {
-    height: 300px;
-    width: 175px;
-    border-style: groove;
-    margin: 5px;
-} */
 
 .hide {
     display: none;
