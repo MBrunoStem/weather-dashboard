@@ -36,7 +36,7 @@ function fetchWeather(city) {
         createHistoryBtns();
     }
     
-    var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
+    var queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + APIKey;
     fetch(queryURL)
         .then(res => res.json())
         .then((data) => {
@@ -48,7 +48,7 @@ function fetchWeather(city) {
 function fetchForecast(data) {
     let cityName = data.name
     let { lat, lon } = data.coord
-    var forecastURL = "http://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&units=imperial&appid=" + APIKey;
+    var forecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&units=imperial&appid=" + APIKey;
     fetch(forecastURL)
         .then(res => res.json())
         .then((data) => {
@@ -65,7 +65,7 @@ function renderItems(cityName, data) {
 function renderCurrentDay(cityName, data) {
     currentDayEl.setAttribute("class", "content");
     currentDateEl.innerHTML = cityName + "-- " + moment.unix(data.dt).format("MMM Do, YYYY");
-    currentIconEl.src = "http://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
+    currentIconEl.src = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
     currentTempEl.innerHTML = "Temperature: " + data.temp + "°F";
     currentHumidityEl.innerHTML = "Humidity: " + data.humidity + "%";
     currentWindEl.innerHTML = "Wind Speed: " + data.wind_speed + "mph";
@@ -88,7 +88,7 @@ function renderForecast(cityName, data) {
         var forecastDateEl = document.createElement("h3");
         forecastDateEl.innerHTML = cityName + "-- " + forecastDate;
         var forecastIconEl = document.createElement("img");
-        forecastIconEl.src = "http://openweathermap.org/img/w/" + forecastIcon + ".png";
+        forecastIconEl.src = "https://openweathermap.org/img/w/" + forecastIcon + ".png";
         var forecastTempEl = document.createElement("h4");
         forecastTempEl.innerHTML = "Temperature: " + forecastTemp + "°F";
         var forecastHumidityEl = document.createElement("h4");
