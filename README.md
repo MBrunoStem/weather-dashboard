@@ -22,3 +22,4 @@ The MIT License is a permissive free software license originating at the Massach
 [Link](https://mbrunostem.github.io/weather-dashboard/)
 
 ![Deployed site landing page](./assets/landing-page.png)
+![Deployed site landing page](./assets/landing-page-2.png)
