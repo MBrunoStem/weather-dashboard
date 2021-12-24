@@ -1,4 +1,7 @@
-# weather-dashboard
+# Weather Dashboard
+
+## Description
+
 WHEN I search a city
 THEN I get then I get the current day's forecast and a 5 day forecast
 WHEN I read the current forecast
