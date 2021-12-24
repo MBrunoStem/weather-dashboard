@@ -1,4 +1,4 @@
-# Weather Dashboard
+# Weather Dashboard ![License](./assets/LicenseMIT.png)
 
 ## Description
 Look up the current weather and the 5 day forecast in your area!
