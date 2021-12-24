@@ -3,6 +3,7 @@
 ## Description
 Look up the current weather and the 5 day forecast in your area!
 
+## User Story
 WHEN I search a city
 THEN I get then I get the current day's forecast and a 5 day forecast
 WHEN I read the current forecast
