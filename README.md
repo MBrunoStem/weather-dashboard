@@ -16,6 +16,6 @@ Look up the current weather and the 5 day forecast in your area!
 - THEN it's current and 5 day forecast reappear
 
 ## Deployed Site
-https://mbrunostem.github.io/weather-dashboard/
+[Link](https://mbrunostem.github.io/weather-dashboard/)
 
 ![Deployed site landing page](./assets/landing-page.png)
