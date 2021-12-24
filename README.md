@@ -15,6 +15,9 @@ Look up the current weather and the 5 day forecast in your area!
 - WHEN I click on my previously searched cities
 - THEN it's current and 5 day forecast reappear
 
+## License
+
+
 ## Deployed Site
 [Link](https://mbrunostem.github.io/weather-dashboard/)
 
