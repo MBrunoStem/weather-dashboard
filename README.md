@@ -32,3 +32,8 @@ The MIT License is a permissive free software license originating at the Massach
 ![Deployed site landing page](./assets/landing-page-2.png)
 ![Deployed site landing page](./assets/landing-page-3.png)
 ![Deployed site landing page](./assets/landing-page-4.png)
+
+## Contributors
+Mario Bruno
+* [GitHub](https://github.com/MBrunoStem)
+* mbrunostem@gmail.com
