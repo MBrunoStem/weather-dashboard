@@ -15,6 +15,12 @@ Look up the current weather and the 5 day forecast in your area!
 - WHEN I click on my previously searched cities
 - THEN it's current and 5 day forecast reappear
 
+## Technologies Used
+- HTML
+- CSS
+- Javascipt
+- API
+
 ## License
 The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
 
