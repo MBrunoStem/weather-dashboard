@@ -29,7 +29,6 @@ The MIT License is a permissive free software license originating at the Massach
 
 ## Landing Page
 ![Deployed site landing page](./assets/landing-page.png)
-![Deployed site landing page](./assets/landing-page-2.png)
 ![Deployed site landing page](./assets/landing-page-3.png)
 
 ## Contributors
