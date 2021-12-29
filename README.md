@@ -4,6 +4,7 @@
 Look up the current weather and the 5 day forecast in your area!
 
 ## User Story
+```
 - WHEN I search a city
 - THEN I get then I get the current day's forecast and a 5 day forecast
 - WHEN I read the current forecast
@@ -14,12 +15,13 @@ Look up the current weather and the 5 day forecast in your area!
 - THEN the city is saved under the seach button
 - WHEN I click on my previously searched cities
 - THEN it's current and 5 day forecast reappear
+```
 
 ## Technologies Used
-- HTML
-- CSS
-- Javascipt
-- API
+* HTML
+* CSS
+* Javascipt
+* API
 
 ## License
 The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology (MIT) in the late 1980s. As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.
